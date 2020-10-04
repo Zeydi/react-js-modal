@@ -1,0 +1,33 @@
+{
+  "name": "react-modal",
+  "version": "1.0.0",
+  "description": "a react js npm module ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeydi/react-modal.git"
+  },
+  "author": "zeydi Oussama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeydi/react-modal/issues"
+  },
+  "homepage": "https://github.com/Zeydi/react-modal#readme",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-transition-group": "^4.4.1"
+  }
+}
